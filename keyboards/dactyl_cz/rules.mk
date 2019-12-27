@@ -27,7 +27,7 @@ UNICODEMAP_ENABLE = no
 BLUETOOTH_ENABLE = no       # Enable Bluetooth with the Adafruit EZ-Key HID
 RGBLIGHT_ENABLE = no       # Enable WS2812 RGB underlight.
 FAUXCLICKY_ENABLE = no
-VARIABLE_TRACE = no
+# VARIABLE_TRACE = no       # Setting to `no` actually includes it?
 API_SYSEX_ENABLE = no
 KEY_LOCK_ENABLE = no
 SLEEP_LED_ENABLE = no    # Breathing sleep LED during USB suspend
@@ -36,6 +36,6 @@ EXTRAKEY_ENABLE = yes       # Audio control and System control(+450)
 COMMAND_ENABLE = yes        # Commands for debug and configuration
 SPLIT_KEYBOARD = yes
 
-LAYOUTS = 
+# LAYOUTS = ortho_4x12
 
-# DEFAULT_FOLDER = lets_split/rev2
+# DEFAULT_FOLDER = 
